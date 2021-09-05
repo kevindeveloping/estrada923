@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'estrada923';
+
+  collapseNavbar(){
+    console.log('sdads');
+  }
+  
+
+
 }
+
