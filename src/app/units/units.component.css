@@ -1,0 +1,38 @@
+.pulsate::before {
+  content      : '';
+  display      : block;
+  position     : absolute;
+  top          : 0;
+  left         : 0;
+  right        : 0;
+  bottom       : 0;
+  animation    : pulse 1s ease infinite;
+  border-radius: 50%;
+  /* border    : 4px double lighten(red, 20%); */
+  border       : 4px double white;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity  : 1;
+  }
+
+  60% {
+    transform: scale(1.3);
+    opacity  : 0.4;
+  }
+
+  100% {
+    transform: scale(1.4);
+    opacity  : 0;
+  }
+}
+
+
+
+a.btnConsultaWpp:active span,
+a.btnConsultaWpp:hover span {
+  color          : white;
+  text-decoration: none;
+}

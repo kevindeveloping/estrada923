@@ -1,0 +1,8 @@
+#carouselBackControls .carousel-indicators button {
+    width: 3px;
+    height: 3px;
+    padding: 3px;
+    margin-right: 6px;
+    margin-left: 6px;
+    border-radius: 50%;
+}
